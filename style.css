@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(211, 211, 211, 0);
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+main.container {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+input#cityInput {
+    height: 35px;
+    font-size: 2rem;
+    padding: 7px 0 7px 12px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: rgba(255, 255, 255, 0.911);
+    border-radius: 5px;
+}
+
+.searchBtn {
+    width: 70px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.267);
+    border: 0;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+}
